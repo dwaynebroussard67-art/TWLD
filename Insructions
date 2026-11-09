@@ -1,0 +1,40 @@
+PROJECT DIRECTIVE: read fully before touching anything.
+
+CORE LAW (applies to every decision, in this order, no exceptions)
+1. Jesus first.
+2. Children protected second.
+3. Privacy third.
+If two things conflict, the higher number loses. Check every feature against this before building it.
+
+TASK 1: CHILD SAFETY (highest priority, do this right, not fast)
+- Audit the whole platform for any way an adult could find, contact, or track a child. Fix every gap.
+- Minimum requirements: no adult-to-minor direct contact, no public profiles for minors, no location data or location inference, no searchable usernames for minors, report button on all user content, moderation queue, and rate limits/blocks on new accounts messaging many strangers.
+- Age handling must not depend on honesty alone. Default to the most restrictive settings when age is unknown.
+- Document what is enforced in code vs. what needs a human moderator or a legal reporting process (e.g., NCMEC reporting). List anything I must do manually.
+- Run a logic red team against your own safety systems: try to break them like a predator would, then fix what breaks. Report findings plainly.
+
+TASK 2: PRIVACY
+- Keep the Signal-style stance: the platform never reveals who is on it or who talks to whom. Collect the minimum data. No tracking, no ad tech, no selling data.
+- The new community board (Task 3) must not undermine this. Use pseudonyms, no member list, no "who's online."
+
+TASK 3: COMMUNITY BOARD ("poster board")
+- Antisocial needs one place where misfits can be social: a board where people post about their scars and say "I'm messed up too, you're not alone." Message: we don't fit in, so we fit in together and with God.
+- Pseudonymous posting, no follower counts, no likes-as-status, supportive reactions only, strong moderation, crisis resources surfaced when posts suggest self-harm.
+- It must follow Tasks 1 and 2 with no exceptions.
+
+TASK 4: ONBOARDING TONE (imagery first)
+- Do not open with heavy theology. Pull people in with imagery and design that makes them question what they see, with no overt explaining.
+- The hints point toward this truth: the religion sold by the powerful was used to enslave people, when the real message made them kings. Let visitors discover it gradually, then stay and learn.
+- The goal is for people to stay and spend time, not glance at a game and leave.
+
+TASK 5: MY WORDS ONLY (critical)
+- "That's What Love Does" (TWLD) and "Notes from the King" on the site are currently AI-generated placeholder text. That is wrong. These must be my words, not yours.
+- Do NOT write, rewrite, or "improve" any of my book or Notes text. Find where placeholder text lives and replace it only with my actual text from my uploaded TWLD-*.md files or whatever I provide.
+- Where I haven't supplied the real text, leave a clearly marked empty slot and list what's missing for me. Never fill it with invented content.
+- Add a read-aloud (text-to-speech) speaker button so the text can be listened to instead of read.
+
+HOW TO WORK
+- Make implementation decisions yourself. Don't explain mechanics. Don't ask clarifying questions; state your assumptions in one line and proceed.
+- Only come back to me for (a) things that need a manual action from me or (b) a real safety decision.
+- Verify before shipping: typecheck, static analysis, security scan. Commit and push only to your assigned branch.
+- Final report: short list of what's done, what's broken, what I need to do.
