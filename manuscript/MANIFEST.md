@@ -1,6 +1,7 @@
 # THAT'S WHAT LOVE DOES — Canonical Manifest (Draft v1.0)
 
 **Date:** 2026-11-10
+**Updated:** 2026-11-10 — Interlude I added (row INT-I).
 **Canonical outline:** TWLD-CANONICAL-OUTLINE.md (26 chapters, 7 Movements + Companion)
 **Rule:** Source snapshots are immutable. This manifest is the only place that declares reading order and status. The read-aloud build is generated from this list.
 
@@ -37,6 +38,9 @@
 | Insructions | platform/instructions.md | REFERENCE | Platform directives; typo preserved in source |
 | README.md | reference/readme.md | REFERENCE | Author intent |
 | TWLD-WHOLE-BOOK-AUDIT.md | reference/audit.md | REFERENCE | 2026-11-10 whole-book audit |
+| Note | source-snapshots/NOTE-first-draft.md | SOURCE-LOCKED | Author's earlier draft of the first Note (PR #6). Superseded by the approved text in manuscript/interludes/01-there-was-never-separation.md; kept for provenance |
+| TWLD-SPOKEN-2026-11-10.md | source-snapshots/TWLD-SPOKEN-2026-11-10.md | SOURCE-LOCKED | Dictation, verbatim: what the Notes are, the night before rehab (not yet placed), the interlude he asked for, the first-note ruling |
+| TWLD-INTERLUDE-DEVICE.md | reference/interlude-device.md | REFERENCE | How every Note interlude is built. Proposed 2026-11-10 |
 
 ## Canonical Chapters (reading order)
 
@@ -46,6 +50,7 @@
 | FM-b | front-matter/00-khuba-nura.md | (new) | MISSING | One definition for Khuba/Nura |
 | FM-c | front-matter/00-disclaimer.md | TWLD-CHRIST-SIDE-RULE.md draft | MISSING | Tier 1/2/3 choice + Ethiopia framing |
 | FM-d | front-matter/00-how-to-read.md | Tablet of My Heart selected intro | CANON-DRAFT | Which Intro II version to print |
+| INT-I | interludes/01-there-was-never-separation.md *(exists)* | Note: author's approved text, supplied 2026-11-10. Frame: editor's draft per TWLD-INTERLUDE-DEVICE.md | Note: CANON-DRAFT, verbatim · Frame: PLACEHOLDER | Frame, placement, breath line, Note IX — see "Interlude I — open items" below |
 | 01 | chapters/01-the-descent.md | Ch.1 The Descent | CANON-DRAFT | Clarify "thirty-four years" |
 | 02 | chapters/02-the-stolen-garden.md | Ch.2 The Stolen Garden | NEEDS-RULING | Apply settled kenosis correction |
 | 03 | chapters/03-hidden-one.md | 1 Enoch 46–48 | MISSING | Prequel 0a |
@@ -80,12 +85,19 @@
 
 _Note on numbering: Front matter unnumbered; chapters 01–31 in manifest map to print chapters 0a,0b,1–26 in Bible count. Final print renumbering after you approve._
 
+**Interlude I — open items (2026-11-10).** None of these changed a word of the Note.
+
+- **Frame.** The opening above the line is the editor's draft, not the author's words. Approve it, rewrite it, or cut it. The Note stands without it.
+- **Placement.** Set at the front of the book, after the introduction and before Chapter One, on the author's words: "front of the book" and "everything else is built on this." Moving it is a one-row change here.
+- **Breath line.** TWLD-DECISIONS §VIII locks "Give me one more breath, and I'll breathe for both of us." The Note reads "Draw one more breath and I'll breathe for both of us," among the words the author heard in his mind. The locked wording appears in no manuscript source, so this Note is the first place a reader meets the line, and the planned hinge before "Are you coming?" quotes it. Author to say which wording stands.
+- **Note IX.** "He isn't trying to kill you" (NOTES-FROM-THE-KING-WEBSITE.md, IX) sits against this Note's "he would end your life." Reconcile when Note IX is placed.
+
 ## Companion
 
 |Path | Source | Status |
 |---|---|---|
 | companion/notes/reading-collection.md | NOTES-FROM-THE-KING-WEBSITE.md (19 Notes) | REFERENCE — clean master |
-| companion/notes/placement-map.md | TWLD-ENDING-AND-NOTES-PLAN.md §3 | MISSING — 3–4 interludes selected |
+| companion/notes/placement-map.md | TWLD-ENDING-AND-NOTES-PLAN.md §3 + TWLD-INTERLUDE-DEVICE.md | PARTIAL — Interlude I placed 2026-11-10 (row INT-I). Which other Notes become interludes, and where, not yet ruled |
 | companion/poetry/ | (absent) | MISSING — need texts + rights |
 | companion/art/anastasis.md | (absent) | MISSING — need license |
 
